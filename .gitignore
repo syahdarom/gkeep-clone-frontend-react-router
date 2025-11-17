@@ -1,7 +1,10 @@
-.DS_Store
-.env
-/node_modules/
-
-# React Router
+.idea/
+.vscode/
+.temp/
 /.react-router/
+/node_modules/
 /build/
+temp/
+.env*
+!.env.example
+.DS_Store
