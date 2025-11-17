@@ -8,7 +8,7 @@
     "start": "react-router-serve ./build/server/index.js",
     "format:c": "prettier -c .",
     "format:w": "prettier -w .",
-    "typecheck": "react-router typegen && tsc"
+    "check-types": "react-router typegen && tsc"
   },
   "dependencies": {
     "@react-router/node": "^7.9.2",
